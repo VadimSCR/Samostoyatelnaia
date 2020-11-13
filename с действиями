@@ -4,7 +4,6 @@
 #include <cmath>
 
 using namespace std;
-
 class Number {
 private:
 	int n;
@@ -51,8 +50,8 @@ int main(void) {
 	Number b(4, 10);
 
 	setlocale(LC_ALL, "Russian");
-	cout << "Сложение:\t" << a.add(b) << endl;
-	cout << "Вычитание:\t" << a.substract(b) << endl;
+	cout << "Сумма:\t" << a.add(b) << endl;
+	cout << "Разность:\t" << a.substract(b) << endl;
 	cout << "Деление:\t" << a.div(b) << endl;
 	cout << "Умножение:\t" << a.multiply(b) << endl;
 	cout << "Возведение в степень:\t" << a.power(b) << endl;
